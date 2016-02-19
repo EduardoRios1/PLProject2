@@ -9,7 +9,13 @@ public class Employee extends Person {
     public String social;
 
     // Constructor
-    public void Employee(){}
+    public Employee(){}
+    public Employee(String firstName, String lastName, String social, String email){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.emailAddress = email;
+        this.social = social;
+    }
 
     // Methods
     public void setSocial(String social) {

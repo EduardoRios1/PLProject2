@@ -9,7 +9,13 @@ public class Customer extends Person{
     public String id;
 
     // Constructor
-    public void Customer(){}
+    public Customer(){}
+    public Customer(String firstName, String lastName, String id, String email){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.emailAddress = email;
+        this.id = id;
+    }
 
     // Methods
     public void setId(String id) {
